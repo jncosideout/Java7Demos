@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="forkjoin"/>
+	<classpathentry kind="src" path="nio/chatserver"/>
+	<classpathentry kind="src" path="nio/file"/>
+	<classpathentry kind="src" path="nio/multicast"/>
+	<classpathentry kind="src" path="nio/server"/>
+	<classpathentry kind="src" path="ch1"/>
+	<classpathentry kind="src" path="ch2"/>
+	<classpathentry kind="src" path="ch3"/>
+	<classpathentry kind="src" path="ch4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
