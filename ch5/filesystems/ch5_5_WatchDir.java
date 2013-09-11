@@ -1,3 +1,4 @@
+package filesystems;
 /*
  * Copyright (c) 2008, 2011, Oracle and/or its affiliates. All rights reserved.
  *
@@ -48,7 +49,7 @@ import java.io.IOException;
  * Example to watch a directory (or tree) for changes to files.
  */
 
-public class WatchDir {
+public class ch5_5_WatchDir {
 
     private final WatchService watcher;
     private final boolean recursive;
@@ -90,7 +91,7 @@ public class WatchDir {
     /**
      * Creates a WatchService and registers the given directory
      */
-    WatchDir(Path dir, boolean recursive) throws IOException {
+    ch5_5_WatchDir(Path dir, boolean recursive) throws IOException {
         this.watcher = FileSystems.getDefault().newWatchService();
         this.recursive = recursive;
 
@@ -180,6 +181,6 @@ public class WatchDir {
 
         // register directory and process its events
         Path dir = Paths.get(args[dirArg]);
-        new WatchDir(dir, recursive).processEvents();
+        new ch5_5_WatchDir(dir, recursive).processEvents();
     }
 }
